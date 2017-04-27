@@ -12,6 +12,7 @@ ADD package.json /app/
 #RUN md5sum .npmrc
 
 RUN npm install
+RUN npm install angular
 
 ADD . /app
 
