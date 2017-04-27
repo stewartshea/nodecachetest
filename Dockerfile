@@ -5,7 +5,7 @@ WORKDIR /app
 
 ENV PATH /app/node_modules/.bin:$PATH
 
-#ADD .npmrc /app/ 
+ADD .npmrc /app/ 
 ADD package.json /app/
 
 RUN stat .npmrc
